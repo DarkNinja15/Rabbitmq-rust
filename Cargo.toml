@@ -5,3 +5,11 @@ edition = "2021"
 
 [dependencies]
 amiquip = "0.4.2"
+
+[[bin]]
+name = "publisher"
+path = "src/publisher.rs"
+
+[[bin]]
+name = "consumer"
+path = "src/consumer.rs"
